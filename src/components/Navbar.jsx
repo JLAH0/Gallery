@@ -51,9 +51,11 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          <Button buttonStyle="btn--outline" buttonSize="btn--small" linkTo="https://wa.me/23059722158" externalLink>
-          Contact Us
-</Button>
+          button && (
+  <a href='https://wa.me/23059722158'>
+    <Button buttonStyle='btn--outline'>Contact Us</Button>
+  </a>
+)
         </div>
       </nav>
     </>
