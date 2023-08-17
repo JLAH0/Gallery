@@ -71,7 +71,7 @@ function Footer() {
         <div class='social-media-wrap'>
         <div class='footer-logo'>
   <Link to='/'>
-  <img src='public/Images/Logo_Gallery-Glimpse.png' alt='Logo Image' className='Gallery-Glimpse-logo' />
+  <img src='/Images/Logo_Gallery-Glimpse.png' alt='Logo Image' className='Gallery-Glimpse-logo' />
   </Link>
 </div>  
           <small class='website-rights'>Gallery Glimpse © 2023</small>
