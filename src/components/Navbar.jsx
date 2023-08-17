@@ -51,11 +51,11 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          button && (
-  <a href='https://wa.me/23059722158'>
+          {button && (
+  <a href="your-link-url-here">
     <Button buttonStyle='btn--outline'>Contact Us</Button>
   </a>
-)
+)}
         </div>
       </nav>
     </>
