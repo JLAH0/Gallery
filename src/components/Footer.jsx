@@ -53,7 +53,7 @@ function Footer() {
               target='_blank'
               aria-label='Twitter'
             >
-              <i class='fab fa-twitter' />
+              <i class='fa-brands fa-x-twitter' />
             </Link>
             <Link
               class='social-icon-link twitter'

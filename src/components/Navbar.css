@@ -15,14 +15,13 @@
   justify-content: center;
   align-items: center;
   height: 90px;
-  max-width: 1200px;
+  max-width: 1500px;
 }
 
 .Gallery-Glimpse-logo-nav {
-  max-width: 100%;
-  max-height: 10%;
+  max-width: 80%; /* Use the same value as in footer.css */
   height: auto;
-  margin-top: 8px;
+  max-height: 100px; /* Use the same value as in footer.css */
 }
 
 .fa-typo3 {
@@ -75,7 +74,7 @@
   .NavbarItems {
     position: relative;
   }
-
+  
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -86,10 +85,12 @@
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .nav-menu.active {
-    background: #8d1c1c;
+    background: #111827 ;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -98,7 +99,7 @@
 
   .nav-links {
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem;
     width: 100%;
     display: table;
   }
@@ -109,12 +110,9 @@
     border-radius: 0;
   }
 
-  /* .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
-  } */
+  .Gallery-Glimpse-logo-nav {
+
+  }
 
   .menu-icon {
     display: block;

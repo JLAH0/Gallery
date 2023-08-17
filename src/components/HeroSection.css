@@ -25,13 +25,14 @@ video {
   }
   
   .hero-container > p {
+    text-align: center;
     margin-top: 8px;
     color: #fff;
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
-  
+
   .hero-btns {
     margin-top: 32px;
   }
@@ -48,6 +49,7 @@ video {
     .hero-container > h1 {
       font-size: 70px;
       margin-top: -150px;
+      padding: 0 20px;
     }
   }
   
@@ -58,7 +60,8 @@ video {
     }
   
     .hero-container > p {
-      font-size: 30px;
+      font-size: 20px;
+      padding: 0 20px;
     }
   
     .btn-mobile {
