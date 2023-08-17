@@ -9,11 +9,11 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <Link to='/sign-up'><h2>About Us</h2></Link>
+            <Link to='/services'><h2>About Us</h2></Link>
           </div>
           <div class='footer-link-items'>
             
-            <Link to='/'><h2>Contact Us</h2></Link>
+            <Link to='https://wa.me/23059722158'><h2>Contact Us</h2></Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
@@ -25,7 +25,7 @@ function Footer() {
             <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='/'
+              to='https://www.facebook.com/unsplash/'
               target='_blank'
               aria-label='Facebook'
             >
@@ -33,7 +33,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to='https://www.instagram.com/unsplash/'
               target='_blank'
               aria-label='Instagram'
             >
@@ -41,7 +41,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link youtube'
-              to='/'
+              to='https://www.youtube.com/?hl=FR'
               target='_blank'
               aria-label='Youtube'
             >
@@ -49,7 +49,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='https://twitter.com/?lang=fr'
               target='_blank'
               aria-label='Twitter'
             >
@@ -57,7 +57,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='https://fr.linkedin.com/'
               target='_blank'
               aria-label='LinkedIn'
             >

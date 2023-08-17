@@ -43,7 +43,7 @@ function Navbar() {
 
             <li>
               <Link
-                to='/sign-up'
+                to='https://wa.me/23059722158'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
@@ -51,7 +51,9 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Contact Us</Button>}
+          <Button buttonStyle="btn--outline" buttonSize="btn--small" linkTo="https://wa.me/23059722158" externalLink>
+          Contact Us
+</Button>
         </div>
       </nav>
     </>
