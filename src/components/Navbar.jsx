@@ -52,7 +52,7 @@ function Navbar() {
             </li>
           </ul>
           {button && (
-  <a href="your-link-url-here">
+  <a href='https://wa.me/23059722158'>
     <Button buttonStyle='btn--outline'>Contact Us</Button>
   </a>
 )}
