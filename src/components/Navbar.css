@@ -19,9 +19,9 @@
 }
 
 .Gallery-Glimpse-logo-nav {
-  max-width: 80%; /* Use the same value as in footer.css */
+  max-width: 80%; 
   height: auto;
-  max-height: 100px; /* Use the same value as in footer.css */
+  max-height: 100px;
 }
 
 .fa-typo3 {
@@ -111,6 +111,7 @@
   }
 
   .Gallery-Glimpse-logo-nav {
+    width: 100px;
 
   }
 

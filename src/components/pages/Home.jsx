@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../App.css';
+// import '../../App.css';
 import HeroSection from '../HeroSection';
 import Gallery from '../Gallery';
 import Subscription from '../Subscription';

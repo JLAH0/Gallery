@@ -10,7 +10,7 @@ function HeroSection() {
       <h1>Gallery Glimpse</h1>
       <p className='sub_title_hero'>A glimpse of the world through the lenses <br></br>of talented photographers</p>
       <div className='hero-btns'>
-      <Button buttonStyle="btn--outline" buttonSize="btn--large" linkTo="https://www.youtube.com" externalLink>
+      <Button buttonStyle="btn--outline" buttonSize="btn--large" linkTo="#" externalLink>
 GET STARTED
 </Button>
         </div>

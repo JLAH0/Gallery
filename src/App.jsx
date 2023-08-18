@@ -11,26 +11,11 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' exact element={<Home />} />
-          <Route path='/about-us' exact element={<AboutUs />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/about-us' element={<AboutUs />} />
         </Routes>
       </Router>
     </>
   );
 }
 export default App;
-
-
-// export default App;
-//   return (
-//     <Router>
-//       <div className='App'>
-//         <Navbar />
-
-//         <Routes>
-//           <Route path='/' element={<HeroSection />} />
-//         </Routes>
-//       </div>
-//     </Router>
-//   );
-// }
