@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './cards.css';
+import './Cards.css';
 
 function SearchBar({ searchTerm, setSearchTerm }) {
   return (
