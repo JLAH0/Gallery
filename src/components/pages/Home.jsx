@@ -1,17 +1,26 @@
-import React from 'react';
-// import '../../App.css';
+import React, { useRef } from 'react';
+import '../../App.css';
 import HeroSection from '../HeroSection';
 import Gallery from '../Gallery';
 import Subscription from '../Subscription';
-import Footer from '../Footer';
+import AboutUsSection from '../AboutUsSection';
 
 function Home() {
+  const galleryRef = useRef(null); 
+
+  const handleScrollToGallery = () => {
+
+    galleryRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <>
-      <HeroSection />
-      <Gallery />
+      <HeroSection scrollToGallery={handleScrollToGallery} />
+      <div ref={galleryRef}>
+      <AboutUsSection />
+        <Gallery />
+      </div>
       <Subscription />
-      <Footer />
     </>
   );
 }

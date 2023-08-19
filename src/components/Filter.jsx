@@ -24,7 +24,7 @@ function Filter({ filter, setFilter }) {
         className={`filter-button ${filter === 'likes' ? 'active' : ''}`}
         onClick={() => handleFilterClick('likes')}
       >
-        Best Likes
+        Most Likes
       </button>
     </div>
   );
